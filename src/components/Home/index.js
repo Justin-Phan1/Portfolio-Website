@@ -15,15 +15,15 @@ const Home = () => {
                     <span className={letterClass}>H</span>
                     <span className={`${letterClass} _ 12`}>i,</span>
                     <br /> 
-                    <span className={`${letterClass} _ 13`}>I',</span>
-                    <span className={`${letterClass} _ 14`}>m</span>
+                    <span className={`${letterClass} _ 13`}>I'</span>
+                    <span className={`${letterClass} _ 14`}>m&nbsp;</span>
                     <AnimatedLetters letterClass={letterClass}
                     strArray={nameArray}
                     index={15} />,
                     <br /> 
                     <AnimatedLetters letterClass={letterClass}
                     strArray={jobArray}
-                    index={22} />.
+                    index={22} />
                 </h1>
                 <h2>Software Engineering Student at Stevens Institute of Technology</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
