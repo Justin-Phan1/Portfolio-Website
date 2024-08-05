@@ -1,6 +1,7 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3, faGitAlt, faHtml5, faJsSquare, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
 
 const About = () => {
@@ -38,32 +39,30 @@ const About = () => {
                 <p>
                     Beyond the world of code, some of my passions include cars, running, and video games. 
                 </p>
+            </div>
                 <div className="stage-cube-cont">
                     <div className="cubespinner">
                         <div className="face1">
-                            <FontAwesomeIcon icon={faPython} color = "#DD0031" />
+                            <FontAwesomeIcon icon={faPython} color = "#FFDE57" />
                         </div>
                         <div className="face2">
-                            <FontAwesomeIcon icon={faHtml5} color = "#DD0031" />
+                            <FontAwesomeIcon icon={faHtml5} color = "#F06529" />
                         </div>
                         <div className="face3">
-                            <FontAwesomeIcon icon={faCss3} color = "#DD0031" />
+                            <FontAwesomeIcon icon={faCss3} color = "#28A4D9" />
                         </div>
                         <div className="face4">
-                            <FontAwesomeIcon icon={faReact} color = "#DD0031" />
+                            <FontAwesomeIcon icon={faReact} color = "#5ED4F4" />
                         </div>
                         <div className="face5">
-                            <FontAwesomeIcon icon={faJsSquare} color = "#DD0031" />
+                            <FontAwesomeIcon icon={faJsSquare} color = "#EFD81d" />
                         </div>
                         <div className="face6">
-                            <FontAwesomeIcon icon={faGitAlt} color = "#DD0031" />
+                            <FontAwesomeIcon icon={faGitAlt} color = "#EC4B28" />
                         </div>
-
                     </div>
-
                 </div>
             </div>
-        </div>
     )
 }
 
