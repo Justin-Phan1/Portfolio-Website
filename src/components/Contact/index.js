@@ -28,7 +28,9 @@ const Contact = () => {
                     />
                 </h1>
                 <p>
-                   Text 
+                    If you would like to get in touch, please feel free to message me on LinkedIn or via email. <br />
+                   You can find my LinkedIn and GitHub by clicking on the icons on the left. <br /> 
+                   Email: contactme.justinphan@gmail.com <br />
                 </p>
                 </div>
             </div>
