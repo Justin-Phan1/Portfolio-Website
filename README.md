@@ -11,9 +11,9 @@ It uses React and Sass to create a visually appealing application and features i
 ## Installation
 
 1. Clone the repository.
-2. Navigate to the project directory using cd portfolio-website in the terminal
-3. Install dependencies using npm install
-4. Start the app in development mode using npm start
+2. Navigate to the project directory using ```cd portfolio-website``` in the terminal
+3. Install dependencies using ```npm install```
+4. Start the app in development mode using ```npm start```
 5. Open your browser and search http://localhost:3000
 
 ## License
